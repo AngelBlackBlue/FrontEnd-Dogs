@@ -18,38 +18,38 @@ const useCards = () => {
 
     const [isLoading, setIsLoading] = useState(false);
 
-    useEffect(() => {
-
-        if (!backDogs.length) {
-            setIsLoading(true); 
-            dispatch(addDogs());
-          
-            setTimeout(() => {
-             dispatch(tempDogs());
-            }, 1000);
-            setTimeout(() => {
-             setIsLoading(false);
-            }, 5000);
-            
-        }
-        if (currentPage > totalPages) setCurrentPage(totalPages);
-        if (!totalPages) setCurrentPage(1)
-    }, [backDogs, totalPages, currentPage, dispatch])
-
     // useEffect(() => {
 
     //     if (!backDogs.length) {
     //         setIsLoading(true); 
-    //         const fetchData = async () => {
-    //             await dispatch(addDogs());
-    //             await dispatch(tempDogs())
-    //         }
-    //       fetchData()
-    //       setIsLoading(false)
+    //         dispatch(addDogs());
+          
+    //         setTimeout(() => {
+    //          dispatch(tempDogs());
+    //         }, 1000);
+    //         setTimeout(() => {
+    //          setIsLoading(false);
+    //         }, 5000);
+            
     //     }
     //     if (currentPage > totalPages) setCurrentPage(totalPages);
     //     if (!totalPages) setCurrentPage(1)
     // }, [backDogs, totalPages, currentPage, dispatch])
+
+    useEffect(() => {
+
+        if (!backDogs.length) {
+            setIsLoading(true); 
+            const fetchData = async () => {
+                await dispatch(addDogs());
+                await dispatch(tempDogs())
+            }
+          fetchData()
+          setIsLoading(false)
+        }
+        if (currentPage > totalPages) setCurrentPage(totalPages);
+        if (!totalPages) setCurrentPage(1)
+    }, [backDogs, totalPages, currentPage, dispatch])
 
     const handleNextPage = () => {
         if (currentPage < totalPages) {
