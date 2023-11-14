@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'myDog';
+    src: url('../../../font/raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+.nav {
+    background-color: #4c61d87c;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #8B4513,
+}
+
+.logoDog {
+    height: 50px;
+    padding-right: 10px;
+}
+
+.logoText {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-right: 220px;
+    font-size: 25px;
+    font-family: 'myDog';
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.groupButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.filter {
+    display:flex;
+    justify-content: center;
+}
+
+.dogLoverButton {
+    margin: 3px;
+    background-color: #007FFF;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'myDog';
+    padding: 8px 16px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #00000073;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dogLoverButton:hover {
+    background-color: #00FF00;
+    transform: scale(1.05);
+}
+
+.dogLoverButton:active {
+    color: #ffff;
+    transform: scale(0.95);
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .nav {
+        width: 91%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 12px;               
+
+    }
+
+    .logo {
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 200px;
+        
+    }
+
+    .filter {
+        padding-top: 10px;
+        padding-left: 8px;
+    }
+
+    .groupButton{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dogLoverButton {
+        padding-top: 0px;
+        font-size: 14px;
+        
+
+    }
+        
+
+    
+    
+}

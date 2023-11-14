@@ -1,0 +1,152 @@
+.container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+    background: rgba(224, 231, 220, 0.712);
+    width: 600px;
+    height: 680px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    box-shadow: 0px 1px 15px 6px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 1px 15px 6px rgba(13, 14, 13, 0.75);
+    -moz-box-shadow: 0px 1px 15px 6px rgba(0, 0, 0, 0.46);
+
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.divDistance {
+    position: relative;
+    margin-top: 45px;
+
+}
+
+.inputName {
+    width: 360px;
+    font-size: 17px;
+}
+
+.inputImg {
+    width: 365px;
+    font-size: 17px;
+}
+
+.input {
+    width: 82px;
+    font-size: 17px;
+}
+
+.inputTemp{
+    width: 450px;
+    font-size: 17px;
+
+}
+
+.textTemp {
+    width: 450px;    
+    font-size: 17px;
+    resize: none;
+    overflow: auto;
+}
+
+.divTemp {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.selectTemp {
+    width: 10px;
+    font-size: 16px;
+
+}
+
+
+.errorMessage {
+    position: absolute;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 500px;
+    /* font-weight: normal; */
+
+}
+
+
+.divButton {
+    position: relative;
+    margin-top: 45px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+.dogLoverButton {
+
+    margin: 3px;
+    background-color: #007FFF;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'myDog';
+    padding: 8px 16px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #00000073;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dogLoverButton:hover {
+    background-color: #00FF00;
+    transform: scale(1.05);
+}
+
+.dogLoverButton:active {
+    color: #ffff;
+    transform: scale(0.95);
+}
+
+.dogLoverButtonCrear {
+
+    margin: 3px;
+    background-color: #00FF00;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'myDog';
+    padding: 8px 16px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #00000073;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dogLoverButtonCrear:hover {
+    background-color: #ff3c00;
+    transform: scale(1.05);
+}
+
+.dogLoverButtonCrear:active {
+    color: #ffff;
+    transform: scale(0.95);
+}
+
+.selectTemp {
+    width: 100px;
+}

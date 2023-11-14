@@ -1,0 +1,16 @@
+.wallpaper {
+    background-image: url('../../../public/image/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .wallpaper {
+        min-height: 100vh;
+        height: 100%;
+    }
+}

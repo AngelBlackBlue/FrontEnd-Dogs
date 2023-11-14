@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'myDog';
+    src: url('../../../font/raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+.input {
+    margin: 3px;
+    padding: 5px;
+    font-size: 19px;
+    text-align: left;
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #007FFF;
+    font-family: 'myDog';
+    color: #000000
+}
+
+.input:focus {
+    outline: none;
+}
+
+.dogLoverButton {
+    margin: 3px;
+    background-color: #007FFF;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'myDog';
+    padding: 8px 16px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #00000073;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dogLoverButton:hover {
+    background-color: #00FF00;
+    transform: scale(1.05);
+}
+
+.dogLoverButton:active {
+    color: #ffff;
+    transform: scale(0.95);
+}
+
+
+@media screen and (max-width: 390px) {
+    .input {
+        font-size: 16px;
+        
+    }
+
+    .dogLoverButton {
+        font-size: 14px;
+        
+    }
+}

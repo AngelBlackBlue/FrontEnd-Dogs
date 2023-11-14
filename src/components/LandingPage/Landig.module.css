@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'myDog';
+    src: url('../../../font/raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+
+.wallpaper{
+    background-image: url('../../../public/image/fondoLandigPage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+.centeredContent {
+    text-align: center;   
+}
+
+.title{
+    margin-top: -205px;
+    display: flex ;
+    flex-direction: row;
+    font-family: 'myDog';
+}
+
+.dogLoverButton {
+    margin: 0 auto;
+         
+    background-color: #ff5722;
+    color: #000;
+    font-size: 18px;
+    font-family: 'myDog';
+    padding: 8px 16px;
+    border-width: 6px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #00000073;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dogLoverButton:hover {
+    background-color: #f44336;
+    transform: scale(1.05);
+}
+
+.dogLoverButton:active {
+    color: #fff;
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 390px) {
+    
+    .wallpaper {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+   
+}
