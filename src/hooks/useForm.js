@@ -89,18 +89,22 @@ const useForm = () => {
         if(repeat) return window.alert('Raza existene')
 
         createDog(create);
+        
         setUserData({
             ...userData, name: '', heightMin: '',
             heightMax: '', weightMin: '', weightMax: '',
             yearsMin: '', yearsMax: '', newTemp: '', temperament: '', image: '',
         });
+
         setTempSelect([])
-        
-        setTimeout(() => {
-            dispatch(addDogs());
-            dispatch(tempDogs());
             
-        }, 1000);
+        const update = async() => {           
+            await dispatch(addDogs());
+            await dispatch(tempDogs());
+        }
+
+        update();            
+        
     }
 
     return { userData, errors, handleChange, handleSubmit, setUserData, handleTemp, tempDog }
