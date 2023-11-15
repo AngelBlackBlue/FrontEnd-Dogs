@@ -56,8 +56,7 @@ const useForm = () => {
     const handleTemp = (event) => {
         const eventTemp = event.target.value;
         const filterTemp = tempSelect.some(temp => temp === eventTemp);
-        console.log(filterTemp)
-
+        
         if (filterTemp) {
             const removeTemp = tempSelect.filter(temp => temp !== eventTemp)
             setTempSelect([...removeTemp]);
@@ -77,7 +76,7 @@ const useForm = () => {
     }, [tempSelect])
 
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
         
         const modifiedName = create.name.split(" ")
@@ -88,7 +87,7 @@ const useForm = () => {
         
         if(repeat) return window.alert('Raza existene')
 
-        createDog(create);
+        await createDog(create);
         
         setUserData({
             ...userData, name: '', heightMin: '',
@@ -98,12 +97,14 @@ const useForm = () => {
 
         setTempSelect([])
             
-        const update = async() => {           
-            await dispatch(addDogs());
-            await dispatch(tempDogs());
-        }
+        // const update = async() => {           
+        //     await dispatch(addDogs());
+        //     await dispatch(tempDogs());
+        // }
 
-        update();            
+        // update();     
+        await dispatch(addDogs());
+        await dispatch(tempDogs());       
         
     }
 
