@@ -1,10 +1,12 @@
-import { useSelector } from 'react-redux';
+import useDetail from '../../hooks/useDetail';
 import style from './DetailPage.module.css';
 import { Link } from 'react-router-dom';
 
+
 const DetailPage = () => {
 
-    const detail = useSelector(state => state.detail);
+    const { detail, handleClearDetail} = useDetail()
+   
    
     return(
         <div className={style.container}>
@@ -15,8 +17,8 @@ const DetailPage = () => {
             <h2 className={style.subtitleTwo}>Peso: {detail?.weight} kg. </h2>   
             <h2 className={style.subtitleTwo}>Años de vide: {detail?.years}</h2>  
             <h2 className={style.temp}>Temperamento: {detail?.temperament?.map((temp) => temp).join(', ')}</h2> 
-            <Link to={'/home'}>
-                <button className={style.dogLoverButton} >Home</button>
+            <Link to={'/home'} >
+                <button className={style.dogLoverButton} onClick={handleClearDetail}>Home</button>
             </Link>        
         </div>
         

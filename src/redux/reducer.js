@@ -1,4 +1,4 @@
-import { ADD_DOGS, SEARCH_DOGS, ORDER_DOGS, FILTER_DOGS_TEMP, TEMPERAMENT, ORIGEN, WEIGHT_DOG, DETAIL_DOG} from "./action-type";
+import { ADD_DOGS, SEARCH_DOGS, ORDER_DOGS, FILTER_DOGS_TEMP, TEMPERAMENT, ORIGEN, WEIGHT_DOG, DETAIL_DOG, CLEAR_DETAIL} from "./action-type";
 
 const initialState = {
 
@@ -23,6 +23,8 @@ const reducer = (state = initialState, { type, payload }) => {
             return { ...state, tempDog: loadTemper }
         case DETAIL_DOG:
             return { ...state, detail: payload }
+        case CLEAR_DETAIL:
+            return {...state, detail: payload}    
         case FILTER_DOGS_TEMP:
             let filterTemp = state.backDogs;
             if (payload !== 'todos') {

@@ -1,4 +1,4 @@
-import { ADD_DOGS, SEARCH_DOGS, ORDER_DOGS, FILTER_DOGS_TEMP, TEMPERAMENT, ORIGEN, WEIGHT_DOG, DETAIL_DOG} from "./action-type";
+import { ADD_DOGS, SEARCH_DOGS, ORDER_DOGS, FILTER_DOGS_TEMP, TEMPERAMENT, ORIGEN, WEIGHT_DOG, DETAIL_DOG, CLEAR_DETAIL} from "./action-type";
 import axios from 'axios'
 import {URL_VERCEL} from '../services/vercel'
 
@@ -90,6 +90,7 @@ export const filterDogsTemp = (filter) => { return { type: FILTER_DOGS_TEMP, pay
 export const filterDogsTempOrigen = (origen) => { return { type: ORIGEN, payload: origen}};
 export const orderDogs = (order) => {return {type: ORDER_DOGS, payload: order}};
 export const orderWeight = (weight) => { return { type: WEIGHT_DOG, payload: weight }};
+export const clearDetail = () => { return { type: CLEAR_DETAIL, payload: {} }};
 
 
 

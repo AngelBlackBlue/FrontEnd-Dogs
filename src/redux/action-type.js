@@ -6,6 +6,8 @@ export const FILTER_DOGS_TEMP = 'FILTER_DOGS_TEMP';
 export const ORIGEN = 'ORIGEN';
 export const ORDER_DOGS = 'ORDER_DOGS';
 export const WEIGHT_DOG = 'WEIGHT_DOG'; 
+export const CLEAR_DETAIL = 'CLEAR_DETAIL'; 
+
 
 
 
