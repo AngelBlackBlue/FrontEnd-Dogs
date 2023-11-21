@@ -27,11 +27,10 @@ Todo el Backend fue creado con Express uilizando bases de datos de PostgreSQL y 
 
 ### Tecnologias usadas para la API
 
-![Vercel](https://img.shields.io/badge/vercel-00000?style=for-the-badge&logo=vercel&logoColor=black&color=white)
-[![Cloudinary](https://img.shields.io/badge/Cloudinary-777BB4?style=for-the-badge&logo=cloudinary&logoColor=white)](https://cloudinary.com/)
 ![Sequelize](https://img.shields.io/badge/Sequelize-00000?style=for-the-badge&logo=sequelize&logoColor=green&color=white)
 ![POSTGRESQL](https://img.shields.io/badge/PostgreSQL-00000?style=for-the-badge&logo=postgresql&logoColor=blue&color=white)
 ![Git](https://img.shields.io/badge/git-00000?style=for-the-badge&logo=git&color=white)
+![Vercel](https://img.shields.io/badge/vercel-00000?style=for-the-badge&logo=vercel&logoColor=black&color=white)
 
 ### Tecnologías usadas para asegurar la calidad de la aplicación
  [![Postman](https://img.shields.io/badge/Postman-10.15-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
