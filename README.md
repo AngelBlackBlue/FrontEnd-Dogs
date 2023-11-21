@@ -1,4 +1,4 @@
-![image](https://res-console.cloudinary.com/dnhjrtihu/media_explorer_thumbnails/975a2f10a0276be8f07119e5a8a7885b/detailed)
+![image](https://res.cloudinary.com/dnhjrtihu/image/upload/v1700534755/DogsLover/h38pyfrmktkfijzmsvm9.png)
 
 # Dog´s Lover
 
