@@ -30,7 +30,7 @@ Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ](https://front
 
 ### Tecnologías usadas para asegurar la calidad de la aplicación
 
-![Static Badge](https://img.shields.io/badge/hoppscotch.io-black?logo=hoppscotch)
+![Static Badge](https://img.shields.io/badge/hoppscotch.io-black?style=for-the-badge&logo=hoppscotch)
 
 ### Tecnologías usadas para la APP
 
