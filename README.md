@@ -16,7 +16,7 @@ El presente proyecto ha sido creado como parte del proceso de Soy Henry para la 
 
 ## La App
 
-Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ]([https://front-end-dogs-beta.vercel.app/]) y listo!.
+Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ](https://front-end-dogs-beta.vercel.app/) y listo!.
 
 ## Construido con
 
