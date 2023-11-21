@@ -43,4 +43,4 @@ Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ](https://front
 
 ### Link para visualizar el código de la API 
 
-El link de la API  se encuentra en otra carpeta de GitHub, [AQUÍ](https://github.com/AngelBlackBlue/BackEnd-Dogs) para verlo. 
+El link de la API  se encuentra en otra carpeta de GitHub, clickear [AQUÍ](https://github.com/AngelBlackBlue/BackEnd-Dogs) para verlo. 
