@@ -7,7 +7,7 @@
 
 ## Contexto del proyecto
 
-El presente proyecto ha sido creado como parte del proceso de Soy Henry para la formación como Full Stack Developer.
+El presente proyecto individual ha sido creado como parte del proceso de Soy Henry para la formación como Full Stack Developer.
 
 ## Objetivos
 
