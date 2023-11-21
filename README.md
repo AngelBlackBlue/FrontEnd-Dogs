@@ -1,6 +1,6 @@
 ![image]()
 
-# local-talent
+# Dog´s Lover
 
 <div align="left">
 # Introducción
@@ -18,10 +18,6 @@ El presente proyecto ha sido creado como parte del proceso de Soy Henry para la 
 ## La App
 
 Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ]([https://pg-henry-local-talent.vercel.app/](https://front-end-dogs-beta.vercel.app/)) y listo!.
-
-## Dog´s Lover - BACKEND REST API
-
-Todo el Backend fue creado con Express uilizando bases de datos de PostgreSQL y realizando las conexiones con Sequelize. 
 
 ## Construido con
 
