@@ -11,9 +11,13 @@ El presente proyecto ha sido creado como parte del proceso de Soy Henry para la 
 
 ## Objetivos
 
-- Construir una Aplicación utlizando las tecnologías aprendidas durante el bootcamp, con tema libre, cumpliendo los requisitos tech.
-- Poner en práctica recursos básicos de estilos y diseño (UX : UI).
-- Afirmar y conectar los conceptos aprendidos en la carrera.
+- Construir una Aplicación utlizando las tecnologías aprendidas durante el bootcamp de Henry, a partir de la API [**TheDogApi**](https://thedogapi.com/) y en la que se pueda:
+  -  Buscar perros.
+  -  Visualizar la información de los perros.
+  -  Filtrarlos. 
+  -  Ordenarlos.
+  -  Crear nuevos perros.
+ 
 
 ## La App
 
