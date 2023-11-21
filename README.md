@@ -29,7 +29,8 @@ Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ](https://front
 ![Vercel](https://img.shields.io/badge/vercel-00000?style=for-the-badge&logo=vercel&logoColor=black&color=white)
 
 ### Tecnologías usadas para asegurar la calidad de la aplicación
- [![Postman](https://img.shields.io/badge/Postman-10.15-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
+
+![Static Badge](https://img.shields.io/badge/hoppscotch.io-black?logo=hoppscotch)
 
 ### Tecnologías usadas para la APP
 
