@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+![image]()
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# local-talent
 
-## Available Scripts
+<div align="left">
+# Introducción
 
-In the project directory, you can run:
+## Contexto del proyecto
 
-### `npm start`
+El presente proyecto ha sido creado como parte del proceso de Soy Henry para la formación como Full Stack Developer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objetivos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Construir una Aplicación utlizando las tecnologías aprendidas durante el bootcamp, con tema libre, cumpliendo los requisitos tech.
+- Poner en práctica recursos básicos de estilos y diseño (UX : UI).
+- Afirmar y conectar los conceptos aprendidos en la carrera.
 
-### `npm test`
+## La App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para comenzar a utilizar la aplicacion solo debes clickear [AQUÍ]([https://pg-henry-local-talent.vercel.app/](https://front-end-dogs-beta.vercel.app/)) y listo!.
 
-### `npm run build`
+## Dog´s Lover - BACKEND REST API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Todo el Backend fue creado con Express uilizando bases de datos de PostgreSQL y realizando las conexiones con Sequelize. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Construido con
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tecnologias usadas para la API
 
-### `npm run eject`
+![Vercel](https://img.shields.io/badge/vercel-00000?style=for-the-badge&logo=vercel&logoColor=black&color=white)
+[![Cloudinary](https://img.shields.io/badge/Cloudinary-777BB4?style=for-the-badge&logo=cloudinary&logoColor=white)](https://cloudinary.com/)
+![Sequelize](https://img.shields.io/badge/Sequelize-00000?style=for-the-badge&logo=sequelize&logoColor=green&color=white)
+![POSTGRESQL](https://img.shields.io/badge/PostgreSQL-00000?style=for-the-badge&logo=postgresql&logoColor=blue&color=white)
+![Git](https://img.shields.io/badge/git-00000?style=for-the-badge&logo=git&color=white)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tecnologías usadas para asegurar la calidad de la aplicación
+ [![Postman](https://img.shields.io/badge/Postman-10.15-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Tecnologías usadas para la APP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+![Vercel](https://img.shields.io/badge/vercel-00000?style=for-the-badge&logo=vercel&logoColor=black&color=white)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
