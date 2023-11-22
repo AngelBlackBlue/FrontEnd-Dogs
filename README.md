@@ -11,7 +11,7 @@ El presente proyecto individual ha sido creado como parte del proceso de Soy Hen
 
 ## Objetivos
 
-- Construir una Aplicación utlizando las tecnologías aprendidas durante el bootcamp, a partir de la API [**TheDogApi**](https://thedogapi.com/) y en la que se pueda:
+- Construir una Aplicación utilizando las tecnologías aprendidas durante el bootcamp, a partir de la API [**TheDogApi**](https://thedogapi.com/) y en la que se pueda:
   -  Buscar perros.
   -  Visualizar la información de los perros.
   -  Filtrarlos. 
