@@ -25,9 +25,9 @@ const useCards = () => {
             const fetchData = async () => {
                 await dispatch(addDogs());
                 await dispatch(tempDogs())
+                setIsLoading(false)
             }
           fetchData()
-          setIsLoading(false)
         }
         if (currentPage > totalPages) setCurrentPage(totalPages);
         if (!totalPages) setCurrentPage(1)
